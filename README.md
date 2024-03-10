@@ -7,8 +7,10 @@ This is a Python project for running boolean and proximity queries on a given se
 The included files are:
 1. processing.ipynb
 2. RunQueries.ipynb
+3. docs.pkl
+4. 
 
-Run first file to preprocessing. Second file is for running queries.
+Run processing.ipynb first if you want to preprocess from scratch. RunQueries is for running queries in GUI
 
 ## Installation
 You need to clone to the directory. Make to sure to clone the ".pkl" file as they contain the indices.
@@ -16,16 +18,18 @@ You need a recent version of Python which should includes:
 - tkinter
 - pickle
 - re
+- nltk
 
-These packages come by default in the latest python versions.
-It also needs **nltk** to run but I've added a cell in the python notebook to install it.
+All packages except nltk come by default in the latest python versions.
+I've added a cell in the python notebook to install nltk.
 
 ```bash
 pip install nltk
 ```
 
-## Run
+## Running queries
 
 In order to perform search.
 1. Run the "RunQueries.ipynb" in a jupyter notebook environment
-1. Run all cells from top to bottom for it to work.
+2. Run all cells from top to bottom for it to work.
+3. Add proximity or boolean queries in their respective input boxes.

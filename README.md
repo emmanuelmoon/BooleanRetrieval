@@ -4,7 +4,7 @@ This is a Python project for running boolean and proximity queries on a given se
 
 ## Installation
 You need a recent version of Python to run this. It should include tkinter, pickle, and re. It also needs nltk to run but I've added a cell in the python notebook
-to install it
+to install it.
 
 ```bash
 pip install nltk

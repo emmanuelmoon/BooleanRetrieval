@@ -2,6 +2,14 @@
 
 This is a Python project for running boolean and proximity queries on a given set of research papers.
 
+## File structure
+
+The included files are:
+1. processing.ipynb
+2. RunQueries.ipynb
+
+Run first file to preprocessing. Second file is for running queries.
+
 ## Installation
 You need to clone to the directory. Make to sure to clone the ".pkl" file as they contain the indices.
 You need a recent version of Python which should includes:

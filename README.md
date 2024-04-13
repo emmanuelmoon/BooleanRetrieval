@@ -8,13 +8,14 @@ The included files are:
 1. processing.ipynb
 2. RunQueries.ipynb
 3. docs.pkl
-4. 
+4. inverted_index.pkl
+5. positional_index.pkl
 
-Run processing.ipynb first if you want to preprocess from scratch. RunQueries is for running queries in GUI
+Run processing.ipynb first if you want to preprocess from scratch. RunQueries is for running queries in GUI.
 
 ## Installation
-You need to clone to the directory. Make to sure to clone the ".pkl" file as they contain the indices.
-You need a recent version of Python which should includes:
+You need to clone to the directory. Make to sure to clone the ".pkl" files as they contain the indices.
+You need a recent version of Python which should include:
 - tkinter
 - pickle
 - re
